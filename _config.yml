@@ -1,0 +1,131 @@
+# Site
+repository: nina-hpn/nina-hpn.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Nina Huynh
+title: Software Engineer
+email: ninahuynh.business@gmail.com
+website: https://nina-hpn.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  nina-hpn
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: nhuwlaftooi
+linkedin_username: ninahuynhhcm
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Problem-solver with over 2 years of hands-on experience in software and data engineering within the Telecom and E-commerce sectors. And personally believe the core value of AI comes from Data with committed efforts dedicated to improving AI usage for data exploration and resolving complex data challenges for businesses.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Mckinsey & Company
+        link: https://www.mckinsey.com/
+        sub_title: Software Engineer
+        caption:  Aug. 2022 - Present
+        quote: >
+          Works as a engineer to solve problem using software and data skills.
+        description: | # this will include new lines to allow paragraphs
+            <mark>Data Ingestion and Modeling for B2B Business for Canadian Telecom Client</mark><br/>
+            <italic>A part of data ingestion team to provide valuable insights into the client’s business clientele, facilitating lead generation initiatives.</italic><br/>
+            <mark>Pioneered Code-Generation Framework</mark>: Owned and led the development of a code-generation framework with centralized procedure for data migration, minimized human error, boosted development speed and accelerated the onboarding process for client’s engineer. Resulted in the migration of hundreds of millions data records from on-prem to GCP in <mark>2 days</mark>.<br/>
+            <mark>Optimized Enterprise Framework</mark>: Enhanced the efficiency of the existing enterprise framework by implementing dictionary translation techniques to replace faulty characters, resulting in 5300% improvement in migration speed.<br/>
+            <mark>Engineered Custom Contract Pipeline</mark>: Designed and implemented bespoke processing pipelines from scratch, enabling the rapid integration of hundreds of thousands of contract and contract product details from client vendors in under 3 weeks. This streamlined the analysis of intricate nested data for business logic development.<br/>
+            <mark>Critical Data Migration</mark>: Played a pivotal role in migrating 30+business-critical data sources, comprising hundreds of millions of records, from both on-premises and third-party vendors to Google Cloud Platform. These efforts significantly contributed to the success of elevated marketing campaigns impacting millions of users.<br/>
+            <mark>Technology</mark>: GCP (Cloud Logging, BigQuery, Cloud Storage, IAM, Cloud Build, Cloud Composer, Dataflow), Python, JavaScript, Bash, SQL, Databases (Oracle, MSSQL, Sybase DB, Postgres).<br/>
+            <br/>
+            <mark>B2B Food Retail Client E-commerce Web App</mark>
+            <italic>Member of the Checkout and Fulfillment squad tasked with migrating from Shopify to a custom Order Management System (OMS) while simultaneously expanding the warehouse network to over 200 locations nationwide. Notably, the project aimed to uphold the app’s status as a top 3 e-commerce platform in Thailand.</italic><br/>
+            <mark>Key Module Owner</mark>: Owned and spearheaded the development of back-end basket solution using NestJS, successfully piloted within 3 months with stability. The solution effectively accommodated basket sizes of up to 6K THB per checkout.<br/>
+            <mark>Cross-Team Collaboration</mark>: Led collaborative efforts between 4 teams to seamlessly integrate pricing calculations, discounts, and promotions at various basket levels during the transition from Shopify to Medusa (an open-source custom OMS solution).<br/>
+            <mark>Ensure system backward compatible</mark>: Orchestrated the migration of 1.5 millions baskets from the existing Shopify platform to the newly implemented solution, ensuring a smooth transition and minimal client disruptions.<br/>
+            <mark>Techology</mark>: AWS (CloudTrail, CloudWatch, Cognito, EC2, S3, IAM), NestJS, ReactJS
+
+      - layout: left
+        title: Netcompany
+        link: https://www.netcompany.com/
+        sub_title: Software Engineer
+        caption:  Feb. 2022 - Aug. 2022
+        quote: >
+          Worked as a full-stack engineer to develop and maintain the client's system.
+        description: | # this will include new lines to allow paragraphs
+          <mark>B2B Cross-Country Car Auction System for Western European Client</mark><br/>
+          <italic>Integral member of a team tasked with supporting the expansion of the client’s system to serve new markets across Europe.</italic><br/>
+          <mark>Efficient Task Management Service Developer</mark>: Developed a comprehensive task management service using VueJS and .NET, catering to 20k buyers and sellers. This service streamlines step-by-step processes for completing car paperwork, verifies submitted documents, and facilitates post-auction delivery. Notably, it aims to reduce operational expenses, ensure compliance with diverse regulations across countries, and support client expansion into the German and Polish markets.<br/>
+          <mark>Optimized Car Registration and Modification</mark>: Optimized and maintained car registration and modification for auction flow, dynamically displaying matching configurations and car settings based on previous choices. This optimization significantly reduces customer frustration and time spent on registration, ensuring more than 10k cars have up-to-date, precise information. <br/>
+          <mark>Technology</mark>: Technology: AWS (SNS, SQS, CloudTrail, CloudWatch, API Gateway, S3, IAM), C# .NET, VueJS
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: University of Information Technology - VNUHCM
+        caption: Aug. 2019 - Aug. 2022
+        sub_title: Bachelor of Computer Science
+        description: | # this will include new lines to allow paragraphs
+          - Graduated with a CGPA of 8.9/10.
+          - Have extremely fantastic time with my friends.
+          - Learned, cried, come back to learning.
+          - Many scholarships and awards.
+          - Many events and activities in CSAC and The Youth Union.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Sling and Pole Dance
+      <img style="max-width: 200px" src="images/layback-trick.jpg" alt="Pole Layback trick">
+      - Travel around the world: I traveled to Thailand, Malaysia, Singapore and the Phillipines alone!!!
+      <img style="max-height: 300px" src="images/nina-in-sing.jpg" alt="Nina in Singapore">
+      <img style="max-height: 300px" src="images/nina-in-philipines.jpg" alt="Nina in Phillipines">
+      - Sleep and eat
+      - Petting my dog: Look at his chunky face :>>
+      <img style="max-width: 200px" src="images/lucky.jpg" alt="Lucky">
+      - Nail art
+      <img style="max-width: 200px" src="images/nail-art.jpg" alt="Nail Art">
+      
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
